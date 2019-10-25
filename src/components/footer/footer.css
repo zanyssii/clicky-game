@@ -1,0 +1,52 @@
+.footer {
+    background: #9AF2E0;
+    height: 100px;
+    position: relative;
+    color: #2196f3;
+    overflow: none;
+
+}
+
+.footer>.bottom>img {
+    width: 50px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.footer a:link {
+    color: #2196f3!important;
+    text-decoration: none;
+
+}
+.footer.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #5138a1;
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.footer a:visited {
+    color: #2196f3!important;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color:  #80868B!important;
+    text-decoration: none;
+
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+    

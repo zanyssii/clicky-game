@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#root, #root > html, body, div {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  html, body, #root {
+    padding: 30;
+    margin: 30;
+    height: 50%;
+    width: 50%
+  }

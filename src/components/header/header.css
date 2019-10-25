@@ -1,0 +1,40 @@
+.header {
+    background-color: #A2A2D0;
+    background-position: center;
+    min-height: 400px;
+    padding: 180px 20px;
+    padding-bottom: 80px;
+    background-size: cover;
+    color: #E7FEFF;
+    text-align: center;
+}
+
+.headerContainer {
+    background-color: #A2A2D0;
+    margin: 0 auto;
+    padding: 30px;
+    width: fit-content;
+    display: table;
+}
+
+.header h1 {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+.header h2 {
+    font-size: 1rem;
+}
+
+@media (min-width: 1100px) {
+    .header h1 {
+        margin: 0;
+        margin-bottom: 50px;
+        font-size: 3rem;
+    }
+    .header h2 {
+
+        font-size: 2rem;
+    }
+}
